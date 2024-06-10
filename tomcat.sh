@@ -1,3 +1,4 @@
+#!bin/bash
 TOMURL="https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.75/bin/apache-tomcat-9.0.75.tar.gz"
 dnf -y install java-11-openjdk java-11-openjdk-devel
 dnf install git maven wget -y
